@@ -1,0 +1,25 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/test/*
+/tmp/*
+!/log/.keep
+!/tmp/sockets
+!/tmp/pids
+/tmp/sockets/*
+/tmp/pids/*
+!/tmp/sockets/.keep
+!/tmp/pids/.keep
+
+/node_modules
+/yarn-error.log
+
+.byebug_history
+
+# carrierwave
+/public/uploads/*
+
+# rubocop
+.rubocop.yml
